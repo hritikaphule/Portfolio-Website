@@ -364,8 +364,8 @@ header .navbar ul li a:hover {
   width: 30rem;
   height: auto;
   border-radius: 5%;
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
-  mix-blend-mode: luminosity;
+  /* box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6); */
+  /* mix-blend-mode: luminosity; */
   transition: 0.3s;
   cursor: pointer;
 }
@@ -472,17 +472,17 @@ header .navbar ul li a:hover {
 .skills .container {
   background: rgba(0, 0, 22, 0.4);
   color: #fff;
-  border-radius: 1rem;
+  border-radius: 2rem;
   padding: 2rem;
-  width: 90%;
+  width: 75%;
   margin: auto;
   margin-top: 2rem;
 }
 .skills .container .row {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(5, 1fr);
   flex-wrap: wrap;
-  gap: 1.8rem;
+  gap: 1.5rem;
 }
 .skills .container .bar {
   margin-bottom: 15px;
@@ -500,8 +500,8 @@ header .navbar ul li a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1rem;
-  margin-top: 1rem;
+  gap: 0rem;
+  margin-top: 1.5rem;
 }
 .skills .container .bar .info i {
   font-size: 4rem;
@@ -521,8 +521,8 @@ header .navbar ul li a:hover {
   .skills .container .row {
     grid-template-columns: repeat(2, 1fr);
     margin: 1rem;
-    padding: 2rem 0.2rem 2rem 0.2rem;
-    gap: 1rem;
+    padding: 0.5rem 0.2rem 2rem 0.2rem;
+    gap: 2rem;
   }
   .skills .container {
     margin-top: 5px;
