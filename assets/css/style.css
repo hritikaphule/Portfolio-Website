@@ -360,9 +360,9 @@ header .navbar ul li a:hover {
   flex: 1 1 35rem;
 }
 .about .row .image img {
-  margin: 4rem;
-  width: 40rem;
-  height: 50rem;
+  margin: 2rem;
+  width:45rem;
+  height: 40rem;
   border-radius: 5%;
   /* box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6); */
   /* mix-blend-mode: luminosity; */
